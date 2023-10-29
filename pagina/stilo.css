@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/img/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    tetx-alling: centre;
+    background-color: #539056;
+    color: white;
+    padding: 20px;
+}
+nav ul {
+    background-color: blue;
+    width: 100;
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover {
+    background-color: black;
+}
